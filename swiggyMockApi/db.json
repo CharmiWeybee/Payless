@@ -1,0 +1,257 @@
+{
+    "restaurants": [
+        {
+            "id": 1,
+            "restaunt_name": "restaurant_1",
+            "categories":[
+            {
+                "category_id":1,
+                "category_name": "Pizza",
+                "menu":[{
+                    "menu_id":1,
+                    "menu_name": "pizza1",
+                    "price":10,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                },
+                {
+                    "menu_id":2,
+                    "menu_name": "pizza2",
+                    "price":20,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                },
+                {
+                    "menu_id":3,
+                    "menu_name": "pizza3",
+                    "price":30,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                }
+            ]      
+        },
+        {
+            "category_id":2,
+            "category_name": "Burger",
+            "menu":[{
+                "menu_id":1,
+                "menu_name": "Burger1",
+                "price":10,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":2,
+                "menu_name": "Burger2",
+                "price":20,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":3,
+                "menu_name": "Burger3",
+                "price":30,
+                "source_id":1,
+                "source_name": "swiggy"
+            }
+        ]      
+        },
+        {
+            "category_id":3,
+            "category_name": "Drinks",
+            "menu":[{
+                "menu_id":1,
+                "menu_name": "drink1",
+                "price":10,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":2,
+                "menu_name": "drink2",
+                "price":20,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":3,
+                "menu_name": "drink3",
+                "price":30,
+                "source_id":1,
+                "source_name": "swiggy"
+            }
+        ]      
+        }
+        ]
+        },
+        {
+            "id": 2,
+            "restaunt_name": "restaurant_2",
+            "categories":[
+            {
+                "category_id":1,
+                "category_name": "Pizza",
+                "menu":[{
+                    "menu_id":1,
+                    "menu_name": "pizza1",
+                    "price":10,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                },
+                {
+                    "menu_id":2,
+                    "menu_name": "pizza2",
+                    "price":20,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                },
+                {
+                    "menu_id":3,
+                    "menu_name": "pizza3",
+                    "price":30,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                }
+            ]      
+        },
+        {
+            "category_id":2,
+            "category_name": "Burger",
+            "menu":[{
+                "menu_id":1,
+                "menu_name": "Burger1",
+                "price":10,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":2,
+                "menu_name": "Burger2",
+                "price":20,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":3,
+                "menu_name": "Burger3",
+                "price":30,
+                "source_id":1,
+                "source_name": "swiggy"
+            }
+        ]      
+        },
+        {
+            "category_id":3,
+            "category_name": "Drinks",
+            "menu":[{
+                "menu_id":1,
+                "menu_name": "drink1",
+                "price":10,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":2,
+                "menu_name": "drink2",
+                "price":20,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":3,
+                "menu_name": "drink3",
+                "price":30,
+                "source_id":1,
+                "source_name": "swiggy"
+            }
+        ]      
+        }
+        ]
+        },
+        {
+            "id": 3,
+            "restaunt_name": "restaurant_3",
+            "categories":[
+            {
+                "category_id":1,
+                "category_name": "Pizza",
+                "menu":[{
+                    "menu_id":1,
+                    "menu_name": "pizza1",
+                    "price":10,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                },
+                {
+                    "menu_id":2,
+                    "menu_name": "pizza2",
+                    "price":20,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                },
+                {
+                    "menu_id":3,
+                    "menu_name": "pizza3",
+                    "price":30,
+                    "source_id":1,
+                    "source_name": "swiggy"
+                }
+            ]      
+        },
+        {
+            "category_id":2,
+            "category_name": "Burger",
+            "menu":[{
+                "menu_id":1,
+                "menu_name": "Burger1",
+                "price":10,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":2,
+                "menu_name": "Burger2",
+                "price":20,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":3,
+                "menu_name": "Burger3",
+                "price":30,
+                "source_id":1,
+                "source_name": "swiggy"
+            }
+        ]      
+        },
+        {
+            "category_id":3,
+            "category_name": "Drinks",
+            "menu":[{
+                "menu_id":1,
+                "menu_name": "drink1",
+                "price":10,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":2,
+                "menu_name": "drink2",
+                "price":20,
+                "source_id":1,
+                "source_name": "swiggy"
+            },
+            {
+                "menu_id":3,
+                "menu_name": "drink3",
+                "price":30,
+                "source_id":1,
+                "source_name": "swiggy"
+            }
+        ]      
+        }
+        ]
+        }
+
+    ]
+}

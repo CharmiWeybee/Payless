@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name": "Food",
+        "src":"./assets/img/food.jpg"
+    },    {
+        "id":2,
+        "name": "Clothing",
+        "src":"./assets/img/cloth.jpg"
+    },
+    {
+        "id":3,
+        "name": "Electronics",
+        "src":"./assets/img/electronics.jpg"
+    },
+    {
+        "id":4,
+        "name": "Medicines",
+        "src":"./assets/img/medical.jpeg"
+    }
+]
