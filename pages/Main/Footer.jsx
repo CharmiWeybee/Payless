@@ -22,7 +22,7 @@ function Footer(){
             <li>Get in touch</li>
             </ul>
         </div>
-        <div className="col">
+        {/* <div className="col">
             <h1>Accounts</h1>
             <ul>
             <li>About</li>
@@ -31,8 +31,8 @@ function Footer(){
             <li>Social</li>
             <li>Get in touch</li>
             </ul>
-        </div>
-        <div className="col">
+        </div> */}
+        {/* <div className="col">
             <h1>Resources</h1>
             <ul>
             <li>Webmail</li>
@@ -42,7 +42,7 @@ function Footer(){
             <li>Web templates</li>
             <li>Email templates</li>
             </ul>
-        </div>
+        </div> */}
         <div className="col">
             <h1>Support</h1>
             <ul>

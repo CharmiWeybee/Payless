@@ -13,43 +13,42 @@ function Sidebar(){
       );
       setMenuData(data);
     };
-  
     useEffect(() => {
         if(categoryId)
         {getData();}
     }, [categoryId]);
 
+
 return(
     <>
-<Menu />
-<main class="main">
-  <aside class="sidebar">
-    <nav class="nav">
-    {menuData && menuData[0]?.categoryList.map((category) => {
-      return(
-      <ul>
-        <li key={category.category_id}>
-           <a className="list-category">{category.category_name}</a>
-           {category?.foodList.map((food) => {
+    <Menu />
+      <main class="main">
+        <aside class="sidebar">
+          <nav class="nav">
+          {menuData && menuData[0]?.categoryList.map((category) => {
             return(
-                <nav className="nav">
-                    <ul className="p-0">
-                        <li key={food.menu_id}>
-                            <a className="listitems">{food.menu_name}</a>
-                        </li>
-                    </ul>
-                </nav>
+            <ul>
+              <li key={category.category_id}>
+                <a className="list-category">{category.category_name}</a>
+                {category?.foodList.map((food) => {
+                  return(
+                      <nav className="nav">
+                        <ul className="p-0">
+                            <li key={food.menu_id}>
+                                <a className="listitems">{food.menu_name}</a>
+                            </li>
+                        </ul>
+                      </nav>
+                  )
+                })}
+              </li>
+            </ul>
             )
-           })}
-        </li>
-      </ul>)
-    })}
-    </nav>
-  </aside>
-  <section class="twitter">
-
-  </section>
-</main>
-</>)
+          })}
+          </nav>
+        </aside>
+      </main>
+    </>
+  )
 }
 export default Sidebar;
