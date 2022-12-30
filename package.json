@@ -2,11 +2,14 @@
   "name": "practice",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://CharmiWeybee.github.io/Payless",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -21,6 +24,7 @@
     "eslint": "8.28.0",
     "eslint-config-next": "13.0.6",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^4.0.0",
     "jquery": "^3.6.3",
     "netlify-cli": "^12.2.9",
     "next": "13.0.6",

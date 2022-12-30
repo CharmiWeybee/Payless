@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const foodApi = createApi({
   reducerPath: "foodApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:8000/",
+    baseUrl: "https://my-json-server.typicode.com/CharmiWeybee/payless-backend/",
   }),
   endpoints: (builder) => ({
     getCategories: builder.query({
